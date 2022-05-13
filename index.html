@@ -4,85 +4,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+				  rel="stylesheet">
+    
+    <link rel="stylesheet" href="/css/none.css">
+    <link rel="stylesheet" href="/css/style.css">
+
     <title>Магазин</title>
 </head>
 <body>
-    <header>
-        logo-img
-        lupe-img
-        <button>
-            menu-img
+    <header class="header">
+        <div class="content">
+         <div class="header__wrapper">
+            <div class="header__control">
+      <img class="header__logo" src="/img/logo.svg" alt="logo" width="44" height="38" >
+        <img src="/img/lupa.svg" alt="loupe" width="26" height="27">
+    </div>
+    <div class="header__control">
+        <button class="header__button">
+            <img src="/img/burger.svg" alt="burger" width="32" height="23">
         </button>
-        <a href="#">person-img</a>
-        <a href="#">card-img</a>
-        <nav>
-            MENU
+        <a class="header__person-link"  href="#"><img src="/img/icon.svg" alt="person" width="29" height="29" ></a>
+        <a class="header__basket-link" href="#"><img src="/img/basket.svg" alt="basket" width="32" height="29"></a>
+    </div>
+    </div>
+    </div>
+        <nav class="header-navigation">
+           <h2> menu</h2>
             <ul>
-                <li><h2>men</h2>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                <li>
+                    <h2>man</h2>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#"></a>Bags</li>
+                    <li><a href="#"></a>Denim</li>
+                    <li><a href="#"></a>T-Shirts</li>
                 </li>
-                <li><h2>woman</h2>
-                     <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                <li>
+                    <h2>woman</h2>
+                    <li><a href="#"></a>Accessories</li>
+                    <li><a href="#"></a>Jackets & Coats</li>
+                    <li><a href="#"></a>Polos</li>
+                    <li><a href="#"></a>T-Shirts</li>
+                    <li><a href="#"></a>Shirts</li>
                 </li>
-                <li><h2>kids</h2>
-                     <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                <li>
+                    <h2>kids</h2>
+                     <li><a href="#"></a>Accessories</li>
+                    <li><a href="#"></a>Jackets & Coats</li>
+                    <li><a href="#"></a>Polos</li>
+                    <li><a href="#"></a>T-Shirts</li>
+                    <li><a href="#"></a>Shirts</li>
+                    <li><a href="#"></a>Bags</li>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="intro">
-        man-img
-        <h1>#</h1>
-        </section>
+        <section class="brand">
+				<img class="brand__img-man" src="/img/men.png" alt="man" width="800" height="764" > 
+          <div class="brand__title-wrapper">
+     <h1 class="brand__title">the brand of luxerious fashion</h1>
+        </div>
+	    </section>
         <section>
             <ul>
                 <li>
-                    <h3></h3>
-                    <p></p>
+                    <h3>30% off</h3>
+                    <p>for women</p>
                 </li>
                 <li>
-                    <h3></h3>
-                    <p></p>
+                    <h3>hot deal</h3>
+                    <p>for men</p>
                 </li>
                 <li>
-                    <h3></h3>
-                    <p></p>
+                    <h3>new arrivals</h3>
+                    <p>for kids</p>
                 </li>
                 <li>
-                    <h3></h3>
-                    <p></p>
+                    <h3>luxirous & trendy</h3>
+                    <p>accesories</p>
                 </li>
             </ul>
         </section>
         <section>
-            <h2></h2>
-            <h3></h3>
+            <h2>Fetured Items</h2>
+            <h3>Shop for items based on what we featured in this week</h3>
             <ul>
                 <!-- 6 shtuk -->
                 <li> 
-                    <img src="#" alt="">
-                    <h3></h3>
-                    <p></p>
-                    <p></p>
+                    <img src="/img/1.jpg" alt="#">
+                    <h3>ELLERY X M'O CAPSULE</h3>
+                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter 
+                        of cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p>$52.00</p>
                 </li>
             </ul>
         </section>
         <section>
-            
+            <ul>
+                <li>
+                    <h4>Free Delivery</h4> 
+                        <p>Worldwide delivery on all. Authorit tively morph next-generation 
+                            innov tion with extensive models.</p>
+                </li>
+                <li>
+                    <h4>Sales & discounts</h4> 
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation 
+                        innov tion with extensive models.</p>
+                </li>
+                <li>
+                    <h4>Quality assurance</h4> 
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation 
+                        innov tion with extensive models.
+
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <img src="/img/Intersect.jpg" alt="">
+            <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                 a pulvinar purus condimentum“</p>
+                 <p>subscribe </p>
+                 <p>for our newletter and promotion</p>
+                 <!-- <form action=""></form> -->
         </section>
     </main>
     <footer>
-
+<p>© 2021  Brand  All Rights Reserved.</p>
+<ul>
+    <li><a href="#"><img src="/img/facebook.svg" alt=""></a></li>
+    <li><a href="#"><img src="/img/instagram.svg" alt=""></a></li>
+    <li><a href="#"><img src="/img/p.svg" alt=""></a></li>
+    <li><a href="#"><img src="/img/twiter.svg" alt=""></a></li>
+</ul>
     </footer>
 </body>
 </html>
